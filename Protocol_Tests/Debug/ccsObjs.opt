@@ -1,1 +1,0 @@
-"./accel.obj" "./compass.obj" "./i2c_protocol.obj" "./main.obj" "./msp432_startup_ccs.obj" "./oled.obj" "../msp432p401r.cmd" -l"libc.a" 
