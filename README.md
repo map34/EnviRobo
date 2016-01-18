@@ -1,6 +1,5 @@
 EnviRobo
 ========================
-Usage: ./userInput [FILE_NAME]
 
 The purpose of this project is to build an autonomous robot using a TI MSP432 board and the
 Raspberry Pi that is able to trap certain objects and move them to a desired location. Input data
