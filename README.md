@@ -18,4 +18,4 @@ to control the communication between EnviRobo and the user on a PC.
 
 Top Level Diagram
 -------------------------------
-![Alt text](https://static.wixstatic.com/media/8384fd_afd3fc0c0e1a4fb38b9e2ff343508743.png/v1/fit/w_857,h_390/8384fd_afd3fc0c0e1a4fb38b9e2ff343508743.png "Figure 1: Top Level Diagram of EnviRobo")
+![Alt text](https://github.com/map34/EnviRobo/blob/master/TopLevelDiagram.png "Figure 1: Top Level Diagram of EnviRobo")
