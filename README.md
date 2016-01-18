@@ -22,8 +22,8 @@ Top Level Diagram
 
 Code Reference
 -------------------------------
-● compass.py is used for running the image capturing/ processing code and compass
+* compass.py is used for running the image capturing/ processing code and compass
 sensors that switch between Python 3 and Python 2 back and forth
-● msp_rasp_1.py is used for the actual object recognition as well as sending flags through
+* msp_rasp_1.py is used for the actual object recognition as well as sending flags through
 UART to MSP432
-● main.c is used for running the robot control logic used on the MSP432 board
+* main.c is used for running the robot control logic used on the MSP432 board
