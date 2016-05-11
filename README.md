@@ -19,10 +19,18 @@ Top Level Diagram
 -------------------------------
 ![Alt text](https://github.com/map34/EnviRobo/blob/master/TopLevelDiagram.png "Figure 1: Top Level Diagram of EnviRobo")
 
+Code Organization
+-------------------------------
+* `MSP432` Folder
+Contains codes that are related to the control logic of the autonomous robot. The logic includes controlling the PWM signal and using distance sensor data for the robot movements. The codes are also responsible for receiving commands from the Raspberry Pi whenever an appropriate object is detected. The codes are all written in C and can be run inside the ![Alt text](http://www.ti.com/tool/ccstudio "Code Composer Studio")  environment.
+
+* `RPi` Folder
+Contains codes that are related to the image processing algorithms (Haar classifier for object recognition) and the serial communication establishment on the Raspberry Pi Side. The codes for RPi are all written in Python that includes ![Alt text](http://opencv.org/ "OpenCV") for image processing, the serial library for RS232 serial communication, and the  ![Alt text](https://picamera.readthedocs.io/en/release-1.10/ "PiCamera") library to control the camera.
+
 Code Reference
 -------------------------------
-* compass.py is used for running the image capturing/ processing code and compass
+* compass.py [inside RPi] is used for running the image capturing/ processing code and compass
 sensors that switch between Python 3 and Python 2 back and forth
-* msp_rasp_1.py is used for the actual object recognition as well as sending flags through
+* msp_rasp_1.py [inside MSP432] is used for the actual object recognition as well as sending flags through
 UART to MSP432
-* main.c is used for running the robot control logic used on the MSP432 board
+* main.c [inside MSP432] is used for running the robot control logic used on the MSP432 board
